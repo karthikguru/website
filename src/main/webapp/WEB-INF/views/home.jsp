@@ -2,6 +2,6 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <t:main>
      <jsp:body>
-        <p>Hello world ......  ${serverTime}</p>
+        <p>The page title obtained is ....... ${pageTitle}</p>
     </jsp:body>
 </t:main>
