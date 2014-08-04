@@ -29,5 +29,11 @@
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	<!-- 404 error page mapping -->
+	<error-page>
+			    <error-code>404</error-code>
+			    <location>/errors/404.html</location>
+   </error-page>
 
 </web-app>

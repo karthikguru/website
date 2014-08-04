@@ -25,17 +25,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Project name</a>
+            <a class="brand" href="#" th:href="@{/}">JPenTest</a>
             <div class="nav-collapse collapse">
               <ul class="nav">
 	                <li th:classappend="${page == 'home' ? 'active' : ''}"><a href="#" th:href="@{/}">Home</a></li>
-	                <li th:classappend="${page == 'messages' ? 'active' : ''}"><a href="#" th:href="@{/message}">Messages</a></li>
-	                <li th:classappend="${page == 'tasks' ? 'active' : ''}"><a href="#" th:href="@{/task}">Tasks</a></li>
+	                <li th:classappend="${page == 'xss' ? 'active' : ''}"><a href="#" th:href="@{/xss}">XSS</a></li>
+	                <li th:classappend="${page == 'sql' ? 'active' : ''}"><a href="#" th:href="@{/sql}">SQL</a></li>
               </ul>
                <ul class="nav pull-right">
-                <li><a href="/signin" th:href="@{/signin}">Sign in</a></li>
-                <li><a href="/logout" th:href="@{/logout}">Logout</a></li>
-            </ul>
+                <li th:classappend="${page == 'about' ? 'active' : ''}"><a href="#" th:href="@{/about}">About</a></li>
+             </ul>
             </div><!--/.nav-collapse -->
           </div>
         </div>
