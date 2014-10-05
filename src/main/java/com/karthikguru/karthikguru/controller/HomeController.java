@@ -1,11 +1,7 @@
-package com.karthikguru.jpentest.controller;
+package com.karthikguru.karthikguru.controller;
 
 import java.util.Locale;
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

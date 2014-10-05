@@ -3,7 +3,7 @@
 
 <head th:fragment="header">
        <meta charset="utf-8"/>
-    	<title>JPenTest</title>
+    	<title>karthikeyanG</title>
 	      <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,12 +25,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#" th:href="@{/}">JPenTest</a>
+            <a class="brand" href="#" th:href="@{/}">Karthikeyan G</a>
             <div class="nav-collapse collapse">
               <ul class="nav">
 	                <li th:classappend="${page == 'home' ? 'active' : ''}"><a href="#" th:href="@{/}">Home</a></li>
-	                <li th:classappend="${page == 'xss' ? 'active' : ''}"><a href="#" th:href="@{/xss}">XSS</a></li>
-	                <li th:classappend="${page == 'sql' ? 'active' : ''}"><a href="#" th:href="@{/sql}">SQL</a></li>
+	                <li th:classappend="${page == 'blog' ? 'active' : ''}"><a href="#" th:href="@{/blog}">Blog</a></li>
+	                <li th:classappend="${page == 'interests' ? 'active' : ''}"><a href="#" th:href="@{/interests}">Interests</a></li>
               </ul>
                <ul class="nav pull-right">
                 <li th:classappend="${page == 'about' ? 'active' : ''}"><a href="#" th:href="@{/about}">About</a></li>

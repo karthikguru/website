@@ -1,4 +1,4 @@
-package com.karthikguru.jpentest.controller;
+package com.karthikguru.karthikguru.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

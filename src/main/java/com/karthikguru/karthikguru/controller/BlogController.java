@@ -1,4 +1,4 @@
-package com.karthikguru.jpentest.controller;
+package com.karthikguru.karthikguru.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class XssController {
+public class BlogController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(XssController.class);
+	private static final Logger logger = LoggerFactory.getLogger(BlogController.class);
 	
-	@RequestMapping(value = "/xss", method = RequestMethod.GET)
+	@RequestMapping(value = "/blog", method = RequestMethod.GET)
 	public String home(Model model){
 		
-		logger.info("Inside XSS home page method");
+		logger.info("Inside blog home page method");
 		
-		model.addAttribute("page","xss");
+		model.addAttribute("page","blog");
 		
-		return "xss/home";
+		return "blog/home";
 	}
 	
 
